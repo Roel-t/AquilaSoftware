@@ -1,0 +1,33 @@
+obj/AquilaSoftware.csproj.nuget.cache
+obj/AquilaSoftware.csproj.nuget.dgspec.json
+obj/AquilaSoftware.csproj.nuget.g.props
+obj/Debug/netcoreapp3.0/AquilaSoftware.assets.cache
+obj/Debug/netcoreapp3.0/AquilaSoftware.csprojAssemblyReference.cache
+obj/project.assets.json
+bin/
+obj/Debug/netcoreapp3.0/AquilaSoftware.MvcApplicationPartsAssemblyInfo.cache
+obj/Debug/netcoreapp3.0/AquilaSoftware.RazorCoreGenerate.cache
+obj/Debug/netcoreapp3.0/AquilaSoftware.RazorTargetAssemblyInfo.cache
+obj/Debug/netcoreapp3.0/AquilaSoftware.RazorTargetAssemblyInfo.cs
+obj/Debug/netcoreapp3.0/AquilaSoftware.TagHelpers.input.cache
+obj/Debug/netcoreapp3.0/AquilaSoftware.TagHelpers.output.cache
+obj/Debug/netcoreapp3.0/AquilaSoftware.Views.dll
+obj/Debug/netcoreapp3.0/AquilaSoftware.Views.pdb
+obj/Debug/netcoreapp3.0/AquilaSoftware.csproj.CopyComplete
+obj/Debug/netcoreapp3.0/AquilaSoftware.csproj.FileListAbsolute.txt
+obj/Debug/netcoreapp3.0/AquilaSoftware.dll
+obj/Debug/netcoreapp3.0/AquilaSoftware.exe
+obj/Debug/netcoreapp3.0/AquilaSoftware.pdb
+obj/Debug/netcoreapp3.0/Razor/
+obj/Debug/netcoreapp3.0/staticwebassets/
+obj/Release/
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+**/.history
