@@ -1,0 +1,20 @@
+﻿.padding-0 {
+    padding-right: 0;
+    padding-left: 0;
+}
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    margin: 0px;
+    background-color: black;
+}
+.row, .btn {
+    margin: 0px;
+    height: 50vh;
+    line-height: 50vh;
+}
+
+
+

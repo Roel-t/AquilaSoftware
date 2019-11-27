@@ -8,11 +8,12 @@ using Microsoft.Extensions.Logging;
 
 namespace AquilaSoftware.Pages
 {
-    public class IndexModel : PageModel
+   
+    public class DrivingScreenModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
+        private readonly ILogger<PrivacyModel> _logger;
 
-        public IndexModel(ILogger<IndexModel> logger)
+        public DrivingScreenModel(ILogger<PrivacyModel> logger)
         {
             _logger = logger;
         }

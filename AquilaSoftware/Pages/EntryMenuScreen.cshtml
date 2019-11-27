@@ -1,0 +1,53 @@
+﻿@page "/"
+@model AquilaSoftware.Pages.EntryMenuScreenModel
+@{
+    ViewData["Title"] = "EntryMenuScreen";
+}
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - AquilaSoftware</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/entryMenuScreen.css" />
+
+</head>
+<body>
+    <div class="row">
+        <div class="col padding-0">
+            <a class="btn btn-dark btn-lg btn-block" asp-page="/DrivingScreen">Driving</a>
+        </div>
+        <div class="col padding-0">
+            <a  class="btn btn-info btn-lg btn-block" asp-page="/HvacScreen">HVAC</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col padding-0">
+            <a  class="btn btn-info btn-lg btn-block" asp-page="/MediaScreen">Media</a>
+
+        </div>
+        <div class="col padding-0">
+            <a class="btn btn-dark btn-lg btn-block"  asp-page="/SettingsScreen">Settings</a>
+        </div>
+    </div>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+
+</body>
+</html>
+
+
+
+
