@@ -1,4 +1,17 @@
-﻿
+﻿#homebutton {
+    background: transparent url(../sprites/home_icon.png) center top no-repeat;
+    background-size: auto 100%;
+}
+.p-2 {
+    flex: 0 0 auto;
+    
+}
+#songname {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 120px;
+}
 html {
   font-size: 14px;
 }
