@@ -1,4 +1,11 @@
-﻿#homebutton {
+﻿body, html {
+    height: 100%;
+    width: 100%;
+    background: rgb(149,158,171);
+    background: linear-gradient(180deg, rgba(149,158,171,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+#homebutton {
     background: transparent url(../sprites/home_icon.png) center top no-repeat;
     background-size: auto 100%;
 }
@@ -6,7 +13,7 @@
     flex: 0 0 auto;
     
 }
-#songname {
+#songname, #time, #speed {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -15,8 +22,12 @@
 html {
   font-size: 14px;
 }
+#statusBar {
+    background: rgb(149,158,171);
+    background: linear-gradient(180deg, rgba(86,91,98,1) 0%, rgba(65,69,74,1) 27%, rgba(66,62,62,1) 100%);
+}
 @media (min-width: 768px) {
-  html {
+    html {
     font-size: 16px;
   }
 }

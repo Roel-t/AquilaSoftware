@@ -6,6 +6,11 @@
     <title>@ViewData["Title"] - AquilaSoftware</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+    @RenderSection("link", required: false)
+
 </head>
 <body>
    
@@ -15,12 +20,12 @@
         </main>
     </div>
 
-    <footer class="border-top bg-dark text-white fixed-bottom ">
+    <footer id="statusBar" class="bg-dark text-white fixed-bottom ">
             <div class="d-flex justify-content-around bd-highlight ">
-                <div class="p-2 "><mph>40</mph> mph</div>
+                <div class="p-2 "><div id="speed">40 mph</div></div>
                 <div class="p-2">
                     <a id="homebutton" class="btn btn-dark btn btn-block" asp-page="/EntryMenuScreen">
-                        <time>12:00 pm</time>
+                        <div id="time">12:00 pm</div>
                     </a>
                 </div>
                 <div class="p-2 ">
